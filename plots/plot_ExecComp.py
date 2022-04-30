@@ -13,7 +13,7 @@ def plot(ax, x, y, color, marker, label):
 
 def main():
 	# LOAD TOTAL DATA
-	data = np.loadtxt("TimeComparison.dat", skiprows=1)
+	data = np.loadtxt("../TimeComparison.dat", skiprows=1)
 	
 	# SPLIT INTO APPROPRIATE ARRAYS
 	numit = data[:, 0]
