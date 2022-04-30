@@ -51,7 +51,7 @@ def main(sample_size: int):
 		Total point number.
 	:return: NONE
 	"""
-	fig, ax = plt.subplots(figsize=(10, 10))
+	fig, ax = plt.subplots(figsize=(7, 7))
 	
 	rectangle = plt.Rectangle((-1, -1), 2, 2, fill=False, ec="tab:blue",
 	                          lw=2.5, ls="--", alpha=0.5)

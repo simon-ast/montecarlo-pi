@@ -23,7 +23,7 @@ def main():
 	time_c = data[:, 4]
 	
 	# PLOT THE DATA
-	fig, ax = plt.subplots()
+	fig, ax = plt.subplots(figsize=(7, 7))
 	
 	plot(ax, numit, time_py, "tab:red", "o", "Python (serial)")
 	plot(ax, numit, time_pypool, "tab:blue", "d", "Python (Pool4)")
